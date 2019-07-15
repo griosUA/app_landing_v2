@@ -1,0 +1,881 @@
+html, body {
+    margin: 0px; 
+    padding: 0px;
+}
+
+body{
+
+}
+
+
+.flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#upbutton {
+    background: url(../img/upbtn.png) no-repeat top left;
+    height: 131px;
+    width: 136px;
+    bottom: 16px;
+    right: 17px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+
+
+h2 {
+    font-family: "MuseoCyrl"; 
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+
+header {
+    background: url(../img/coins_header.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+
+
+nav {
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+
+nav ul {
+    display: flex;
+    margin: 0 -10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fffffd;
+    font-family: MuseoCyrl300;
+    font-size: 18px;
+}
+
+nav li a:hover {
+    color: #fffffd;
+    font-family: MuseoCyrl300;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav li a:active {
+    color: #fffffd;
+    font-family: MuseoCyrl300;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-left {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.header-menu {
+    display: flex;
+    width: 900px;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-heading h1 {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 56px;
+}
+
+.header-menu img {
+    width: 50%;
+}
+
+.header-phone {
+    display: flex;
+    justify-content: center;
+}
+
+.download-header-container {
+
+
+}
+
+.header-heading {
+    margin: 0;
+    text-align: center;
+}
+
+.users-earn-heading h1 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+}
+
+.download-header {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+
+.download-hover {
+    opacity: 0.9;
+}
+
+.download-hover a:hover {
+    opacity: 0.7;
+}
+
+/*Пользователей уже зарабатывает с нами*/
+
+.users-earn-counter {
+    background-color: #03a9f4;
+}
+
+.users-earn-counter-heading {
+    margin: 0;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.users-earn-counter-heading h1 {
+    margin: 0;
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+}
+
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    background: url(../img/counter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
+    height: 211px;
+}
+
+.content {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    font-size: 70px;
+
+}
+
+/* Как это работает? */
+
+.how-it-work {
+    background: #04a7f1 url(../img/shadow_center.png) no-repeat;
+}
+
+.users-earn-heading-how-it-works h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+}
+
+.counter {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 70px;
+
+}
+.users-earn-heading-how-it-works {
+    text-align: center;
+}
+
+.users-earn-heading-how-it-works h1 {
+    margin: 0;
+}
+
+.how-itwork-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hiw-download, .hiw-execute, .hiw-earn {
+    display: flex;
+    align-items: center;
+}
+
+.hiw-download p, .hiw-execute p, .hiw-earn p {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    font-size: 30px;
+    padding-left: 10px;
+    max-width: 164px;
+}
+
+.hiw-earn {
+    overflow: hidden;
+}
+
+
+/* Что такое AdvertApp? */
+
+.what-is-app {
+    padding-top: 70px;
+    background: url(../img/shadow_bottom.png) no-repeat bottom,
+        #03a9f4 url(../img/shadow_top.png) no-repeat top;
+
+}
+
+.what-is-app-heading {
+    margin: 0;
+    text-align: center;
+}
+
+.what-is-app-heading h1 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+}
+
+.what-is-app-button {
+    display: block;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    padding: 8px;
+    width: 220px;
+    text-align: center;
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+}
+
+.what-is-app-button  {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.what-is-app-button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.what-is-app-list {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+.what-is-app-imac-video {
+    display: flex;
+    min-width: 650px;
+    height: 512px;
+    background: url(../img/imac.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-is-app-imac-video-iframe {
+    padding-bottom: 125px;
+}
+
+.what-is-app-list-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 300px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.what-is-app-list-left p {
+    color: #fffffd;
+    font-family: MuseoCyrl300;
+    font-size: 20px;
+}
+
+/*Вывод денег*/
+
+.incoming-money {
+    background-color: #03a9f4;
+    padding-top: 150px;
+}
+
+.incoming-money-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.income-money-heading{
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.income-money-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+}
+
+
+.money-mobile, .money-qiwi, .money-webmoney, .money-yandex, .money-mailru, .money-all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    /*flex-basis: 30%;*/
+}
+
+.money-mobile p, .money-qiwi p, .money-webmoney p, .money-yandex p, .money-mailru p, .money-all p{
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+}
+
+/* анимации */
+
+
+.money-mobile, .money-qiwi, .money-webmoney, .money-yandex, .money-mailru, .money-all {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.money-mobile:hover, .money-qiwi:hover, .money-webmoney:hover, .money-yandex:hover, .money-mailru:hover, .money-all:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+/*Зарабатывать уже сегодня*/
+
+.earn-now {
+    /*	background-color: #03a3eb;*/
+    background: url(../img/earn_now_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.earn-now-heading {
+    text-align: center;
+}
+
+.earn-now-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+    padding-top: 30px;
+}
+
+
+
+.earn-now-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 0 auto;
+    max-width: 1200px;
+/*    height: 436px;*/
+}
+
+.tasks-earn-now {
+    display: flex;
+    align-items: center;
+    /*max-width: 250px;*/
+}
+
+.earn-now-today {
+    display: flex;
+    align-items: center;
+    /* max-width: 250px;*/
+
+}
+
+.tasks-earn-now p {
+    padding-left: 20px;
+    max-width: 250px
+}
+
+.earn-now-today p {
+    padding-left: 20px;
+    padding-top: 64px;
+    overflow: hidden;
+    max-width: 250px
+}
+
+.tasks-earn-now75 {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 50px;
+}
+
+.tasks-earn-now-text {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+}
+
+.earn-now-today1000r {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 50px;
+    /*overflow: hidden;*/
+
+}
+
+.earn-now-today-text {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+}
+
+
+
+/*Хочешь еще больше заработать?*/
+
+.want-more {
+    height: 600px;
+    background: url(../img/friends_bg.png) no-repeat bottom,
+        #04a7f1 /*url(../img/shadow_top.png) no-repeat top*/;
+}
+
+.want-more-heading {
+    text-align: center;
+   padding-top: 10px;
+}
+
+.want-more-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+}
+
+
+.give-friends {
+    display: flex;
+    justify-content: center;
+    background: url(../img/give_friends.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 156px;
+}
+
+.give-friends-text{
+    /*position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);*/
+}
+
+.give-friends-text p{
+    font-family: MuseoCyrl500;
+    font-size: 37px;
+
+}
+
+.get-bonus {
+    display: flex;
+    justify-content: center;
+}
+
+.get-bonus10 {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 80px;
+}
+
+.get-bonus-earn {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    font-size: 30px;
+}
+
+.get-bonus p {
+    margin: 0;
+}
+
+/* Топ пользователей */
+
+.top-users {
+    margin: 0 auto;
+    height: 800px;
+    background: #04a7f1 url(../img/top_users_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.top-users-1 p, .top-users-2 p, .top-users-3 p, .top-users-4 p, .top-users-5 p {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    font-size: 20px;	
+}
+
+.top-users-heading {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.top-users-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+}
+
+.top-users-list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.top-users-text {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-users-text p {
+    max-width: 500px;
+}
+
+
+.top-users-text p {
+    margin: 0;
+    color: #fffffd;
+    font-family: MuseoCyrl100;	
+}
+
+.top-users-2 {
+    padding-top: 35px;
+}
+
+.top-users-3 {
+    padding-top: 70px;
+}
+
+.top-users-4 {
+    padding-top: 105px;
+}
+
+.top-users-5 {
+    padding-top: 140px;
+}
+
+/*Просто установи приложение на свой смартфон*/
+
+.install-app {
+    background-color: #04a7f1;
+    padding-top: 30px;
+}
+
+.install-app-heading {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.install-app-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+}
+
+.install-app-download {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+/*Отзывы пользователей*/
+
+.reviews-users {
+    background-color: #04a7f1;
+    padding-top: 75px;
+        overflow: hidden;
+}
+
+.reviews-users-heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.reviews-users-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    margin: 0;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;	
+    align-items: center;
+}
+
+.slider-contain {
+    position: relative;
+}
+
+.slider-img img {
+    position: absolute;
+
+}
+
+
+.slider-text p {
+    position: relative;
+    text-align: center;
+    font-family: MuseoCyrl100;
+    color: #0298dc;
+}
+
+.slider-contain p{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+   
+}
+
+
+
+/* Контакты */
+
+.contacts{
+    background-color: #04a7f1;
+}
+
+.contacts-heading{
+    text-align: center;
+}
+
+.contacts-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    margin: 0;
+}
+
+.contact-mail {
+    text-align: center;
+    font-size: 25px;
+    font-family: MuseoCyrl700;
+    padding-top: 20px;
+}
+
+.contact-mail a {
+    color: #fffffd;
+}
+
+.contacts-list{
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts-list img {
+    width: 50%;
+}
+
+.contacts-list img  {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.contacts-list img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/*Тексты*/
+
+.some-text {
+    background-color: #04a7f1;
+    margin: 0 auto;
+}
+
+
+.some-text1, .some-text2, .some-text3, .some-text4 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.some-text1 h2, .some-text2 h2, .some-text3 h2, .some-text4 h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+
+}
+
+.some-text1 p, .some-text2 p, .some-text3 p, .some-text4 p {
+    color: #fffffd;
+    font-family: MuseoCyrl100;
+
+}
+
+
+.some-text1 h2{
+
+    margin: 0;
+}
+
+.some-text4 p {
+    margin: 0;
+}
+
+
+
+footer {
+    background: #04a7f1 url(../img/shadow_bottom.png) no-repeat;
+    background-position: bottom;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-app-download{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+.footer-pages{
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.footer-pages p {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    padding-right: 20px;
+}
+
+.footer-pages a {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-pages a:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    padding-right: 20px;
+}
+
+/* navigation */
+
+
+nav .hamburger {
+    height: 36px;
+    width: 36px;
+    margin: 5px;
+    display: none;
+
+}
+nav .hamburger i, nav .hamburger i:before, nav .hamburger i:after {
+    cursor: pointer;
+    content: '';
+    width: 25px;
+    height: 4px;
+    background: #ecf0f1;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+nav .hamburger i {
+    display: block;
+    position: relative;
+    top: 16px;
+    left: 6px;
+}
+nav .hamburger i:before {
+    position: absolute;
+    top: -8px;
+}
+nav .hamburger i:after {
+    position: absolute;
+    top: 8px;
+}
+nav.active .hamburger {
+    border-radius: 50%;
+}
+nav.active .hamburger i {
+    background: transparent;
+}
+nav.active .hamburger i:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+nav.active .hamburger i:after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+
+

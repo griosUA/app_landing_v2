@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "MuseoCyrl100"; 
+    src: url("../fonts/museocyrl/MuseoCyrl100.otf"),
+	url("../fonts/museocyrl/MuseoCyrl100.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl300"; 
+    src: url("../fonts/museocyrl/MuseoCyrl300.otf"),
+	url("../fonts/museocyrl/MuseoCyrl300.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl500"; 
+    src: url("../fonts/museocyrl/MuseoCyrl500.otf"),
+	url("../fonts/museocyrl/MuseoCyrl500.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl700"; 
+    src: url("../fonts/museocyrl/MuseoCyrl700.otf"),
+	url("../fonts/museocyrl/MuseoCyrl700.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl900"; 
+    src: url("../fonts/museocyrl/MuseoCyrl900.otf"),
+	url("../fonts/museocyrl/MuseoCyrl900.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl100Italic"; 
+    src: url("../fonts/museocyrl/MuseoCyrl100Italic.otf"),
+	url("../fonts/museocyrl/MuseoCyrl100Italic.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl300Italic"; 
+    src: url("../fonts/museocyrl/MuseoCyrl300Italic.otf"),
+	url("../fonts/museocyrl/MuseoCyrl300Italic.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl500Italic"; 
+    src: url("../fonts/museocyrl/MuseoCyrl500Italic.otf"),
+	url("../fonts/museocyrl/MuseoCyrl500Italic.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl700Italic"; 
+    src: url("../fonts/museocyrl/MuseoCyrl700Italic.otf"),
+	url("../fonts/museocyrl/MuseoCyrl700Italic.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }
+
+@font-face {
+    font-family: "MuseoCyrl900Italic"; 
+    src: url("../fonts/museocyrl/MuseoCyrl900Italic.otf"),
+	url("../fonts/museocyrl/MuseoCyrl900Italic.otf") format('otf');
+			font-style: normal;
+            font-weight: normal;
+   }

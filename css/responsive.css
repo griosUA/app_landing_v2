@@ -1,0 +1,314 @@
+/*navigation*/
+
+@media screen and (max-width: 768px) {
+
+	header {
+		background: url(../img/bg768.jpg);
+	}
+
+	.header-phone {
+	background: url(../img/coins_header.png);
+	background-repeat: no-repeat;
+    background-size: cover; 
+	}
+
+
+  	.header-menu {
+    flex-direction: column;
+    align-items: end;
+ 	 }
+
+  	.header-menu li {
+    	display: none;
+    	height: 0;
+    	transition: height 1s ease;
+    	color: transparent;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  	}
+  	.header-menu > li:not(:first-child) {
+    	border-left: none;
+  	}
+  	nav .hamburger {
+    	display: inline-block;
+  	}
+  	nav.active .header-menu li {
+    	display: block;
+    	height: initial;
+    	color: inherit;
+  	}
+
+  	.nav-left {
+  		margin: 0;
+      padding-left: 10px;
+  	} 	
+}
+
+
+@media screen and (max-width: 375px) {
+
+  .header-phone img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .users-earn-counter-heading h1 {
+    margin: 0;
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    font-size: 38px;
+    padding-top: 31px;
+  }
+
+  .content {
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    font-size: 49px;
+    padding-top: 30px;
+
+  }
+
+
+  .what-is-app {
+    padding-top: 14px;
+  }
+
+  .earn-now {
+    padding-top: 20px;
+    }
+
+  .how-itwork-list {
+    padding-top: 36px;
+  }
+
+  .give-friends-text p {
+    padding-top: 10px;
+    }
+
+    .top-users-heading {
+    padding-top: 19px;
+    }
+
+      #upbutton {
+    background: url(../img/upbtn48.png) no-repeat top left;
+    height: 108px;
+    width: 64px;
+    bottom: 13px;
+    right: 17px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+  .header-heading h1 {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 49px;
+  }
+
+  #upbutton {
+    background: url(../img/upbtn64.png) no-repeat top left;
+    height: 108px;
+    width: 64px;
+    bottom: 13px;
+    right: 17px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+
+
+  
+}
+  
+
+
+
+/*users-earn-counter*/
+
+
+@media screen and (max-width: 768px) {
+
+	.users-earn-counter-heading h1 {
+    margin: 0;
+    color: #fffffd;
+    font-family: MuseoCyrl700;
+    font-size: 40px;
+    padding-top: 45px;
+	}
+   
+   .statistics {
+    display: flex;
+    justify-content: center;
+    background: url(../img/counter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	}
+
+  .counter-style {
+  color: #fffffd;
+  font-family: MuseoCyrl700;
+      font-size: 114px;
+    padding-top: 33px;
+    padding-right: 18px;
+  }
+
+}
+
+/*how-it-work*/
+
+@media screen and (max-width: 768px) {
+   
+   .how-itwork-list {
+   	display: flex;
+   	flex-direction: column;
+   }
+
+   .hiw-download {
+   	/*align-self: flex-start;*/
+    justify-content: center;
+   }
+
+   .hiw-execute {
+   	/*align-self: center;*/
+    justify-content: center;
+    flex-direction: row-reverse;
+   }
+
+   .hiw-earn {
+    justify-content: center;
+   	/*align-self: flex-start;*/
+   }
+
+
+}
+
+/*what-is-app*/
+
+@media screen and (max-width: 768px) {
+   
+   .what-is-app-imac-video {
+   	display: none;
+   }
+
+   .what-is-app-list-left {
+   	display: flex;
+   	align-items: center;
+   }
+   
+}
+
+@media screen and (max-width: 940px) {
+   
+   .what-is-app-imac-video {
+    display: none;
+   }
+
+   .what-is-app-list-left {
+    display: flex;
+    align-items: center;
+   }
+   
+}
+
+
+/*incoming-money*/
+
+@media screen and (max-width: 768px) {
+   
+   .incoming-money {
+   	padding-top: 20px;
+   }
+
+   .incoming-money-list {
+    width: 80%;
+    justify-content: space-evenly;
+   }
+
+   .money-mobile, .money-qiwi, .money-webmoney, .money-yandex, .money-mailru, .money-all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    flex-basis: 30%;
+}
+   
+}
+
+/*earn-now*/
+
+
+@media screen and (max-width: 768px) {
+   
+   .earn-now-list {
+   	flex-direction: column;
+   }
+
+	.earn-now-today {
+		align-self: flex-end;
+    flex-direction: row-reverse;
+	}
+   
+}
+
+
+/*give-friends*/
+
+@media screen and (max-width: 768px) {
+   
+  .give-friends {
+    background-size: contain;
+  }
+
+  .get-bonus10 {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 50px;
+  }
+
+  .get-bonus p {
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+/*top-users*/
+@media screen and (max-width: 768px) {
+    .top-users-1 img, .top-users-2 img, .top-users-3 img, .top-users-4 img, .top-users-5 img {
+      width: 70%;
+    }
+
+    .top-users {
+          background-size: contain;
+          height: 510px;
+    }
+
+    .top-users-text {
+      display: none;
+    }
+
+    .top-user-img img {
+      width: 50%;
+    }
+}
+
+/*contacts*/
+
+@media screen and (max-width: 768px) {
+
+    .contacts-list img {
+     width: 70%;
+      }
+  }
+}
+
+

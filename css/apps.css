@@ -1,0 +1,470 @@
+html, body {
+    margin: 0px; 
+    padding: 0px;
+}
+
+body{
+
+
+}
+
+
+.flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+
+h2 {
+    font-family: "MuseoCyrl"; 
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+
+header {
+    background-color: #04a7f1;
+
+}
+
+
+
+nav {
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+
+
+nav ul {
+    display: flex;
+    margin: 0 -10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fffffd;
+    font-family: MuseoCyrl300;
+    font-size: 18px;
+}
+
+nav li a:hover {
+    color: #fffffd;
+    font-family: MuseoCyrl300;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav li a:active {
+    color: #fffffd;
+    font-family: MuseoCyrl300;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-left {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.header-menu {
+    display: flex;
+    width: 900px;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu img {
+    width: 50%;
+}
+
+.header-heading h1 {
+    color: #fffffd;
+    font-family: MuseoCyrl900;
+    font-size: 56px;
+}
+
+.header-heading {
+    margin: 0;
+    text-align: center;
+}
+
+.header-phone {
+    padding-left: 100px;
+}
+
+.download-header {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+
+.download-hover {
+    opacity: 0.9;
+}
+
+.download-hover a:hover {
+    opacity: 0.7;
+}
+
+.some-text {
+    background-color: #04a7f1;
+    margin: 0 auto;
+
+
+}
+
+.some-text-phone {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 43px;
+
+
+}
+
+.some-text-phone-heading {
+    flex-basis: 68%;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+
+
+.some-text-phone-heading h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+}
+
+.some-text-phone-heading p {
+    color: #fffffd;
+    font-family: MuseoCyrl100;
+    font-size: 22px;
+}
+
+.some-text2-container {
+
+    text-align: center;
+
+}
+
+.some-text2-container h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+}
+
+.some-text2-container p {
+    color: #fffffd;
+    font-family: MuseoCyrl100;
+    font-size: 22px;
+}
+
+.some-text3-container {
+
+    text-align: center;
+
+}
+
+.some-text3-container h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+}
+
+.some-text3-container p {
+    color: #fffffd;
+    font-family: MuseoCyrl100;
+    font-size: 22px;
+    margin: 0;
+}
+
+/*ios*/
+
+
+
+.some-text-phone-ios {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 43px;
+    justify-content: center;
+
+
+}
+
+.some-text-ios-container {
+    text-align: center;
+}
+
+.some-text-ios-container h2 {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    font-size: 22px;
+}
+
+.some-text-ios-container p {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    font-size: 22px;
+}
+
+.some-texti-ios-heading h2{
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    
+}
+
+.ios-list {
+    color: #fffffd;
+    font-family: MuseoCyrl100;
+    text-align: center;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #04a7f1;
+    padding-top: 50px;
+
+}
+
+
+.footer-app-download{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+.footer-pages{
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.footer-pages p {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.footer-pages a {
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    padding-right: 10px;
+    padding-left: 10px;
+     font-size: 22px;
+}
+
+.footer-pages a:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fffffd;
+    font-family: MuseoCyrl500;
+    padding-right: 20px;
+        margin: 0;
+    padding-bottom: 20px;
+}
+
+
+
+/* navigation */
+
+
+nav .hamburger {
+    height: 36px;
+    width: 36px;
+    margin: 5px;
+    display: none;
+
+}
+nav .hamburger i, nav .hamburger i:before, nav .hamburger i:after {
+    cursor: pointer;
+    content: '';
+    width: 25px;
+    height: 4px;
+    background: #ecf0f1;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+nav .hamburger i {
+    display: block;
+    position: relative;
+    top: 16px;
+    left: 6px;
+}
+nav .hamburger i:before {
+    position: absolute;
+    top: -8px;
+}
+nav .hamburger i:after {
+    position: absolute;
+    top: 8px;
+}
+nav.active .hamburger {
+    border-radius: 50%;
+}
+nav.active .hamburger i {
+    background: transparent;
+}
+nav.active .hamburger i:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+nav.active .hamburger i:after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .header-menu {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .header-menu li {
+        display: none;
+        height: 0;
+        transition: height 1s ease;
+        color: transparent;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header-menu > li:not(:first-child) {
+        border-left: none;
+    }
+    nav .hamburger {
+        display: inline-block;
+    }
+    nav.active .header-menu li {
+        display: block;
+        height: initial;
+        color: inherit;
+    }
+
+    .nav-left {
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .some-text-phone {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .some-text-phone-heading {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+
+    .header-phone {
+        padding-left: 0;
+    }
+
+    .header-heading h1 {
+        color: #fffffd;
+        font-family: MuseoCyrl900;
+        font-size: 47px;
+    }
+
+}
+
+
+@media screen and (max-width: 1542px) {
+
+    .some-text-phone-heading {
+        flex-basis: 62%;
+        flex-direction: column;
+    }
+    .header-phone {
+        padding-left: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 1360px) {
+
+    .some-text-phone-heading {
+        flex-basis: 54%;
+        flex-direction: column;
+
+    }
+    .header-phone {
+        padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1179px) {
+
+    .some-text-phone-heading {
+        flex-basis: 57%;
+        flex-direction: column;
+    }
+    .header-phone {
+        padding-left: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 410px) {
+
+    .header-phone img{
+        width: 98%;
+    }
+    .header-phone {
+        padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 919px) {
+
+    .some-text-phone {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 43px;
+    justify-content: center;
+}
+
+}
+
